@@ -1,0 +1,13 @@
+Source: ros-kinetic-robotnik-sensors
+Section: misc
+Priority: extra
+Maintainer: Carlos Villar <cvillar@robotnik.es>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-urdf, ros-kinetic-xacro
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-robotnik-sensors
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-hector-gazebo-plugins, ros-kinetic-urdf, ros-kinetic-xacro
+Description: Robotnik standard sensors description.
+ URDF and meshses.
