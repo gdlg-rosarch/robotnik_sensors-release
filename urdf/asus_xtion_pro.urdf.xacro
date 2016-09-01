@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot name="sensor_asus_xtion_pro" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="sensor_asus_xtion_pro" xmlns:xacro="http://www.ros.org/wiki/xacro">
   
   <!-- Xacro properties -->
   <!-- xacro:property name="M_SCALE" value="0.001"/ -->
@@ -8,13 +8,13 @@
   <!-- xacro:property name="asus_xtion_scale" value="0.001"/ -->
   <xacro:property name="asus_xtion_scale" value="1.0"/>
   <xacro:property name="asus_xtion_pro_depth_rel_rgb_py" value="0.0270" />
-  <xacro:property name="asus_xtion_pro_cam_rel_rgb_py"   value="-0.0220" />z
+  <xacro:property name="asus_xtion_pro_cam_rel_rgb_py"   value="-0.0220" />
   <xacro:property name="M_PI" value="3.1415926535897931" />
 
   <xacro:macro name="sensor_asus_xtion_pro" params="name parent *origin">
     
     <joint name="${name}_cam_rgb_joint" type="fixed">
-	  <insert_block name="origin" />
+	  <xacro:insert_block name="origin" />
       <parent link="${parent}"/>
       <child link="${name}_cam_rgb_frame" />
     </joint>
