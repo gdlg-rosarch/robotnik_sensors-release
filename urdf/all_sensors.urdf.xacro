@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot name="all_sensors" xmlns:xacro="http://ros.org/wiki/xacro">
+<robot name="all_sensors" xmlns:xacro="http://www.ros.org/wiki/xacro">
 	
 	<!-- This file unifies all sensors that can be used on simulation, defined as xacro:macros -->
 
@@ -53,5 +53,11 @@
 
   <!-- Orbbec Astra -->
   <xacro:include filename="$(find robotnik_sensors)/urdf/orbbec_astra.urdf.xacro" /> 
+  
+  <!-- Rplidar -->
+  <xacro:include filename="$(find robotnik_sensors)/urdf/rplidar.urdf.xacro" /> 
 
+  <!-- uEye CP Gige -->
+  <xacro:include filename="$(find robotnik_sensors)/urdf/ueye_cp_gige.urdf.xacro" /> 
+  
 </robot>
