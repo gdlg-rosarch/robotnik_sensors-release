@@ -2,17 +2,8 @@
 Changelog for package robotnik_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.0.3 (2016-09-01)
+1.1.0 (2016-09-01)
 ------------------
-* modified xmls:xacro
-* Merge branch 'indigo-devel' of https://github.com/RobotnikAutomation/robotnik_sensors into indigo-devel
-* Modified .xacro files
-* corrected name of orientation parameters
-* updated gps and imu_hector parameters
-* resolved conflict
-* added ueye camera
-* Added rplidar to all_sensors
-* Contributors: Marc Bosch-Jorge, carlos3dx, summit
 
 1.0.2 (2016-07-12)
 ------------------
