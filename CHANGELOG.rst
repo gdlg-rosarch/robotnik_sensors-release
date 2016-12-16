@@ -2,8 +2,39 @@
 Changelog for package robotnik_sensors
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.1.0 (2016-09-01)
+1.0.4 (2016-12-16)
 ------------------
+* MOD: Fixed problem with rotations
+* --amend
+* standarized all sensors: frames, joints, topics and params
+* reduced rate drift and associated gaussian noise
+* 1.0.3
+* updated changelog
+* Contributors: Jose Rapado, Marc Bosch-Jorge, carlos3dx, rguzman1
+
+1.0.5 (2016-12-16)
+------------------
+* 1.0.4
+* update changelog
+* MOD: Fixed problem with rotations
+* --amend
+* standarized all sensors: frames, joints, topics and params
+* reduced rate drift and associated gaussian noise
+* 1.0.3
+* updated changelog
+* Contributors: Jose Rapado, Marc Bosch-Jorge, carlos3dx, rguzman1
+
+1.0.3 (2016-09-01)
+------------------
+* modified xmls:xacro
+* Merge branch 'indigo-devel' of https://github.com/RobotnikAutomation/robotnik_sensors into indigo-devel
+* Modified .xacro files
+* corrected name of orientation parameters
+* updated gps and imu_hector parameters
+* resolved conflict
+* added ueye camera
+* Added rplidar to all_sensors
+* Contributors: Marc Bosch-Jorge, carlos3dx, summit
 
 1.0.2 (2016-07-12)
 ------------------
